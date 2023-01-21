@@ -1,7 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Yeon+Sung&display=swap');
+
 *{
-    m
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+main{
+    width: 70%;
+    max-width: 500px;
+    height: 600px      ;
+    background-color: bisque;
+
 }
 
-h1{
-    
+#checkout-title{
+    margin: 30px;
+    text-align: center;
 }
+
+img{
+    width: 200px;
+    border-radius: 20px;
+   
+}
+
+.product{
+    display: flex;
+    justify-content: space-evenly;
+    
+    background-color: aqua
+}
+    
