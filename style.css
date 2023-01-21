@@ -9,31 +9,77 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Yeon Sung', cursive;
+   
 
 }
 main{
     width: 70%;
     max-width: 500px;
-    height: 600px      ;
+    height: 1000px      ;
     background-color: bisque;
+    border-radius: 20px;
 
 }
 
 #checkout-title{
-    margin: 30px;
+    margin: 10px;
     text-align: center;
 }
 
-img{
-    width: 200px;
-    border-radius: 20px;
-   
-}
+
 
 .product{
     display: flex;
     justify-content: space-evenly;
-    
-    background-color: aqua
+    margin: 10px 0 ;
+    align-items: center;    
+    /* background-color: aqua */
 }
-    
+
+img{
+    width: 150px;
+    border-radius: 20px;
+   
+}
+h2{
+    margin: 5px;
+}
+p strong{
+    color: orange;
+    margin: 3px;
+}
+p span{
+    text-decoration: line-through;
+}
+.quantity-contoller{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    width:90px ;
+}
+
+i{
+    border: 1px solid black;
+    padding: 4px;
+    border: radius 4px;;
+}
+
+.quantity{
+    margin: 0 13px;
+}
+
+.remove-product{
+    padding: 7px;
+    border-radius: 7px;
+    border: none;
+    margin: 10px;
+    background-color: deeppink;
+    font-size: larger;
+}
+.product-line-price-price{
+    margin: 10px;
+}
